@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Vinilos Shop - Lista de productos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/logo.jpeg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.jpeg">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+    <!-- Header -->
+     <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="assets\img\logo.jpeg" alt="" height="80px">
+            <a class="navbar-brand logo h1 align-self-center" href="index.html">
+                Vinilos Shop
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Comprar</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="inputMobileSearch">
+                        <button class="btn btn-outline-dark" type="button" id="botonBusqueda">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Start Content -->
+     <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-3">
+                <h1 class="h2 pb-4">Tipos</h1>
+                <ul class="list-unstyled templatemo-accordion">
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Categorías
+                            <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul class="collapse show list-unstyled pl-3">
+                        <li><a class="text-decoration-none" href="#">Vinilos</a></li>
+                        <li><a class="text-decoration-none" href="#">Ofertas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/soad/2.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="steal-this-album.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="steal-this-album.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="steal-this-album.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="steal-this-album.html" class="h3 text-decoration-none">Steal This Album!</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>System Of A Down, 2002, LP</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                    
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$40.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/soad/3.PNG">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="soad.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="soad.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="soad.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="soad.html" class="h3 text-decoration-none card-title">System Of A Down</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>System Of A Down, 1998, LP (reedicón 2018)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$30.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/soad/4.PNG">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="toxicity.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="toxicity.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="toxicity.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="toxicity.html" class="h3 text-decoration-none card-title">Toxicity</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>System Of A Down, 2001, LP (reedicón 2018)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$30.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/soad/5.PNG">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="mezmerize.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="mezmerize.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="mezmerize.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="mezmerize.html" class="h3 text-decoration-none card-title">Mezmerize</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>System Of A Down, 2005, LP</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$33.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/soad/6.PNG">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="hypnotize.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="hypnotize.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="hypnotize.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="hypnotize.html" class="h3 text-decoration-none card-title">Hypnotize</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>System Of A Down, 2005, LP</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$28.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/deftones/2.webp">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="pony.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="pony.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="pony.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="pony.html" class="h3 text-decoration-none card-title">White Pony</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Deftones, 2000, 2LP (edición 2020)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$37.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/deftones/3.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="gore.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="gore.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="gore.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="gore.html" class="h3 text-decoration-none card-title">Gore</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Deftones, 2016, 2LP (reedición ofcial)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$47.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/deftones/4.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="around.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="around.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="around.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="around.html" class="h3 text-decoration-none card-title">Around The Fur</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Deftones, 1997, LP (reedición 2011)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$32.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/deftones/5.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="yokan.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="yokan.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="yokan.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="yokan.html" class="h3 text-decoration-none card-title">Koi No Yokan</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Deftones, 2013, LP</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$25.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/deftones/6.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="ohms.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="ohms.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="ohms.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="ohms.html" class="h3 text-decoration-none card-title">Ohms</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Deftones, 2019, LP</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$35.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/radiohead/2.PNG">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="kid.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="kid.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="kid.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="kid.html" class="h3 text-decoration-none card-title">Kid A</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Radiohead, 2000, 2LP (reedición 2016)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$42.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/radiohead/3.PNG">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="honey.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="honey.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="honey.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="honey.html" class="h3 text-decoration-none card-title">Pablo Honey</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Radiohead, 1993, LP (reedición 2022)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$45.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/radiohead/4.PNG">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="ok.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="ok.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="ok.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="ok.html" class="h3 text-decoration-none card-title">OK Computer</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Radiohead, 1997, 2LP (reedición 2016)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$49.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/radiohead/5.PNG">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="amnesiac.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="amnesiac.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="amnesiac.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="amnesiac.html" class="h3 text-decoration-none card-title">Amnesiac</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Radiohead, 2001, 2LP (reedición 2016)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$48.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/radiohead/6.PNG">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="hail.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="hail.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="hail.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="hail.html" class="h3 text-decoration-none card-title">Hail To The Thief</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Radiohead, 2003, 2LP (reedición 2022)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$49.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/thesmiths/2.webp">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="bombs.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="bombs.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="bombs.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="bombs.html" class="h3 text-decoration-none card-title">Louder Than Bombs</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>The Smiths, 1987, 2LP (reedición 2012)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$20.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/thesmiths/3.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="hollow.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="hollow.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="hollow.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="hollow.html" class="h3 text-decoration-none card-title">Hatful Of Hollow</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>The Smiths, 1984, LP (reedición 2012)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$30.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/thesmiths/4.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="queen.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="queen.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="queen.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="queen.html" class="h3 text-decoration-none card-title">The Queen is Dead</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>The Smiths, 1986, LP (reedición 2012)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$25.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/thesmiths/5.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="listen.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="listen.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="listen.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="listen.html" class="h3 text-decoration-none card-title">The World Won't Listen</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>The Smiths, 1987, LP (reedición 2012)ㅤㅤㅤㅤㅤㅤㅤ</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$27.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/thesmiths/6.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="murder.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="murder.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="murder.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="murder.html" class="h3 text-decoration-none card-title">Meat Is Murder</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>The Smiths, 1985, LP (reedición 40° aniversario 2024-2025)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$30.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/sexpistols/41 sin título_20250716173227.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-dark text-white" href="never.html"><i class="far fa-heart"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="never.html"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-dark text-white mt-2" href="never.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 href="never.html" class="h3 text-decoration-none card-title">Never Mind the Bollocks, Here's the Sex Pistols</h1>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>Sex Pistols, 1977, LP (reedición 2014)</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <h4 class="text-center mb-0">$28.000</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="pagination pagination-lg justify-content-end" id="paginacion-dinamica">
+                <!-- Paginación dinámica se genera con JS -->
+                </ul>
+            </div>
+            <script>
+                const productos = Array.from(document.querySelectorAll('.producto'));
+                let paginaActual = 1;
+                const porPagina = 6;
+                function mostrarProductos() {
+                    productos.forEach(p => p.style.display = 'none');
+                    const inicio = (paginaActual - 1) * porPagina;
+                    const fin = inicio + porPagina;
+                    productos.slice(inicio, fin).forEach(p => p.style.display = 'block');
+                    actualizarPaginacion();
+                }
+                function actualizarPaginacion() {
+                    const totalPaginas = Math.ceil(productos.length / porPagina);
+                    const contenedor = document.getElementById('paginacion-dinamica');
+
+                    contenedor.innerHTML = '';
+                    for (let i = 1; i <= totalPaginas; i++) {
+                        const li = document.createElement('li');
+                        li.className = `page-item ${i === paginaActual ? 'active' : ''}`;
+                        const btn = document.createElement('button');
+                        btn.className = `page-link rounded-0 shadow-sm border-top-0 border-left-0 ${i === paginaActual ? '' : 'text-dark'}`;
+                        btn.textContent = i;
+                        btn.addEventListener('click', () => {
+                            paginaActual = i;
+                            mostrarProductos();});
+                            li.appendChild(btn);
+                            contenedor.appendChild(li);
+                    }
+                }
+                window.addEventListener('load', () => {
+                    mostrarProductos();
+                 });
+            </script>
+        </div>
+    </div>
+</div>
+    <!-- End Content -->
+     <script>
+     document.querySelectorAll('.filtro-producto').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const filtro = btn.getAttribute('data-producto');
+            document.querySelectorAll('.producto').forEach(producto => {
+                const tipo = producto.getAttribute('data-producto');
+                producto.style.display = (filtro === 'todos' || tipo === filtro) ? 'block' : 'none';
+            });
+        });
+    });
+</script>
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light logo">Vinilos Shop</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:9 36500119">9 36500119</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="renatasotogarrido@colegionahuelcura.cl">renatasotogarrido@colegionahuelcura.cl</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Vinilos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Más información</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Home</a></li>
+                        <li><a class="text-decoration-none" href="#">Sobre nosotros</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/vinilos.shop?utm_source=qr"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://x.com/vinilos_shop?s=21"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="Ingrese su email">Ingrese su email</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="Ingrese su email" placeholder="Ingrese su email">
+                        <div class="input-group-text btn-dark text-light">Suscribir</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+        // --- Buscador (lupita para móviles) ---
+        const inputBuscar = document.getElementById("inputMobileSearch");
+        if (inputBuscar) {
+            inputBuscar.addEventListener("input", function () {
+                const query = this.value.toLowerCase();
+                const productos = document.querySelectorAll(".producto");
+                productos.forEach(p => {
+                    const nombre = p.querySelector(".card-title")?.innerText.toLowerCase() || "";
+                    p.style.display = nombre.includes(query) ? "block" : "none";
+                });
+            });
+        }
+
+  // --- Carrito básico con localStorage ---
+  let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
+  function actualizarContador() {
+    const contador = document.querySelector(".fa-cart-arrow-down + span");
+    if (contador) contador.innerText = carrito.length;
+  }
+
+  document.querySelectorAll(".btn-agregar-carrito").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const nombre = btn.dataset.nombre;
+      const precio = parseInt(btn.dataset.precio);
+      carrito.push({ nombre, precio });
+      localStorage.setItem("carrito", JSON.stringify(carrito));
+      actualizarContador();
+      alert(`${nombre} agregado al carrito.`);
+    });
+  });
+
+  actualizarContador();
+</script>
+<!-- Modal de búsqueda para escritorio -->
+<div class="modal fade" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content border-0">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body d-flex justify-content-center align-items-center">
+        <input type="text" class="form-control w-75" id="inputDesktopSearch" placeholder="Buscar producto...">
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Programado por Renata Soto III°B
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
